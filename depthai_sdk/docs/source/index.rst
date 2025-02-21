@@ -1,35 +1,58 @@
-.. Luxonis Docs documentation master file, created by
-   sphinx-quickstart on Tue Nov  3 14:34:56 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+====================
+What is DepthAI SDK?
+====================
 
-DepthAI SDK documentation
-=========================
+DepthAI SDK is a Python package built on top of the `depthai-python <https://github.com/luxonis/depthai-python>`__ API library that **improves
+ease of use when developing apps for OAK devices**.
 
-DepthAI SDK is a Python package, containing convenience classes and functions that help in most common tasks while using DepthAI API.
+.. image:: https://user-images.githubusercontent.com/18037362/142909472-eae7bed1-695b-48ec-8895-76982989de11.png
 
-Installation
-------------
-
-.. include::  install.rst
-
-Usage
------
-
-Please visit :ref:`Getting started with DepthAI SDK` for basic usage examples
+.. note::
+    DepthAI SDK is in **alpha stage** until **depthai-sdk 2.0**, so there will likely be API changes during the development.
 
 
-API
----
+.. include::  ./includes/footer-short.rst
 
-See :ref:`DepthAI SDK API`
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :glob:
+   :caption: Getting started
 
-.. include::  footer-short.rst
+   self
+   quickstart.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :glob:
+   :caption: Fundamentals
+
+   fundamentals/*
+
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :glob:
+   :caption: Features
+
+   features/*
+
 
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Content:
+   :caption: Examples
+   
+   tutorials/code_samples.rst
 
-   getting-started.rst
-   api.rst
+
+.. toctree::
+    :maxdepth: 2
+    :hidden:
+    :glob:
+    :caption: References
+
+    api_reference.rst
+
